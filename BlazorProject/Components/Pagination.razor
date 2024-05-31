@@ -1,0 +1,46 @@
+﻿@code {
+	// ApiResultComponent.razor
+	[Parameter]
+	public int CurrentPage { get; set; }
+
+	[Parameter]
+	public int TotalPages { get; set; }
+
+	[Parameter] 
+	public EventCallback<int> OnPageChange { get; set; }
+
+}
+<nav aria-label="Page navigation" class="mt-4">
+	<ul class="pagination justify-content-center">
+		<li class="page-item @(hasPreviousPage ? "active" : "disabled")">
+			<button class="page-link" @onclick="PreviousPage" disabled="@(hasPreviousPage ? false : true)">Anterior</button>
+		</li>
+		<li class="page-item">
+			<span class="page-link">Pagina @CurrentPage de @TotalPages</span>
+		</li>
+		<li class="page-item @(hasNextPage ? "active" : "disabled")">
+			<button class="page-link" @onclick="NextPage" disabled="@(hasNextPage ? false : true)">Siguiente</button>
+		</li>
+	</ul>
+</nav>
+
+@code {
+	private bool hasPreviousPage => CurrentPage > 1;
+	private bool hasNextPage => CurrentPage < TotalPages;
+
+	private async Task PreviousPage()
+	{
+		if (hasPreviousPage)
+		{
+			await OnPageChange.InvokeAsync(CurrentPage - 1);
+		}
+	}
+
+	private async Task NextPage()
+	{
+		if (hasNextPage)
+		{
+			await OnPageChange.InvokeAsync(CurrentPage + 1);
+		}
+	}
+}

@@ -1,0 +1,33 @@
+﻿@using OmdbBlazerApp.BlazorProject.Models
+
+@code {
+	// ApiResultComponent.razor
+	[Parameter]
+	public List<Movie> movies { get; set; }
+
+	[Parameter]
+	public List<string> headers { get; set; }
+
+}
+
+<div class="table-responsive">
+	<table class="table table-bordered table-striped table-hover">
+		<thead class="thead-dark">
+			<tr>
+				@foreach (var header in headers)
+				{
+					<th scope="col">@header</th>
+				}
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var movie in movies)
+			{
+				<Film movie="@movie" />
+			}
+		</tbody>
+	</table>
+</div>
+
+
+

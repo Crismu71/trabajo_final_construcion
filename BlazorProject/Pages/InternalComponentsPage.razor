@@ -1,0 +1,15 @@
+﻿@page "/internal-components"
+
+<div class="container">
+	<h1 class="text-center mb-4">Documentación de la OMDb API</h1>
+	<div class="card-group">
+
+		<SearchDocumentation Title="Búsqueda de Películas"
+							 Description="La búsqueda de películas en la OMDb API se realiza a través de solicitudes HTTP GET al endpoint http://www.omdbapi.com/."
+							 Code="http://www.omdbapi.com/?s=movie_name&page=page_number&apikey=your_apikey" />
+
+		<ResultsDocumentation 
+			Title="Resultados de Búsqueda" 
+			Description="Después de realizar una solicitud de búsqueda a la OMDb API, recibirás un objeto JSON que contiene los resultados de la búsqueda." />
+	</div>
+</div>

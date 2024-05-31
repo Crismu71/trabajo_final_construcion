@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OmdbBlazerApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OmdbBlazerApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OmdbBlazerApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OmdbBlazerApp.props",
+      "PackagePath": "build\\OmdbBlazerApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OmdbBlazerApp.props",
+      "PackagePath": "buildMultiTargeting\\OmdbBlazerApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OmdbBlazerApp.props",
+      "PackagePath": "buildTransitive\\OmdbBlazerApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

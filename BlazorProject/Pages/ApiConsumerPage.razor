@@ -1,0 +1,61 @@
+﻿@page "/api-consumer"
+@using OmdbBlazerApp.BlazorProject.Models
+@using OmdbBlazerApp.BlazorProject.Services
+
+@inject IOmdbService OmdbService
+@rendermode InteractiveServer
+
+<div class="container mt-2">
+	<h3 class="mb-3">Consumo de API Pública</h3>
+	<Search OnSearch="HandleSearch" />
+	@if (movies.Any())
+	{
+		<FilmTable movies="movies" headers="headers" />
+		<Pagination CurrentPage="currentPage" TotalPages="totalPages" OnPageChange="HandlePageChange" />
+	}
+	else if (!string.IsNullOrWhiteSpace(searchQuery))
+	{
+		<div class="alert alert-warning mt-4" role="alert">
+			No se encontraron resultados para "@searchQuery".
+		</div>
+	}
+</div>
+
+@code {
+	private readonly List<string> headers = new List<string>() { "Id", "Poster", "Titulo", "Año", "Tipo" };
+	private List<Movie>? movies = new List<Movie>();
+	private Dictionary<int, List<Movie>> moviesCache = new Dictionary<int, List<Movie>>();
+	private string searchQuery = " ";
+	private int currentPage = 1;
+	private int totalPages = 1;
+
+	private async Task HandleSearch(string query)
+	{
+		currentPage = 1;
+		searchQuery = query;
+		moviesCache.Clear();
+		await FetchMovies();
+	}
+
+	private async Task FetchMovies()
+	{
+		if (moviesCache.ContainsKey(currentPage))
+		{
+			movies = moviesCache[currentPage];
+		}
+		else
+		{
+			var result = await OmdbService.GetOmdbSearchAsync(searchQuery, currentPage);
+			movies = result.Movies;
+			totalPages = (int)Math.Ceiling(double.Parse(result.TotalResults) / 10);
+			moviesCache[currentPage] = movies;
+		}
+	}
+
+	private async Task HandlePageChange(int page)
+	{
+		currentPage = page;
+		await FetchMovies();
+	}
+
+}

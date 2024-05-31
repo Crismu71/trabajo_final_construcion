@@ -1,0 +1,18 @@
+﻿@code {
+    // InternalComponent1.razor
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public string Description { get; set; }
+}
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h5 class="card-title">@Title</h5>
+    </div>
+    <div class="card-body">
+        <p>@Description</p>
+        <!-- Puedes agregar más detalles y ejemplos aquí según sea necesario -->
+    </div>
+</div>
+

@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OmdbBlazerApp
+build_property.RootNamespace = OmdbBlazerApp
+build_property.ProjectDir = C:\Users\cedbo\source\repos\OmdbBlazerApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\cedbo\source\repos\OmdbBlazerApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/Content.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXENvbnRlbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/Film.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXEZpbG0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/FilmTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXEZpbG1UYWJsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/Pagination.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXFBhZ2luYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/ResultsDocumentation.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXFJlc3VsdHNEb2N1bWVudGF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXFNlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Components/SearchDocumentation.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxDb21wb25lbnRzXFNlYXJjaERvY3VtZW50YXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Pages/ApiConsumerPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxQYWdlc1xBcGlDb25zdW1lclBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Pages/InternalComponentsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxQYWdlc1xJbnRlcm5hbENvbXBvbmVudHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxTaGFyZWRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y5ak5354da
+
+[C:/Users/cedbo/source/repos/OmdbBlazerApp/BlazorProject/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUHJvamVjdFxTaGFyZWRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hrl1adplqj

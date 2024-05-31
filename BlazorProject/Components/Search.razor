@@ -1,0 +1,21 @@
+﻿@code {
+	// ApiResultComponent.razor
+	[Parameter] 
+	public EventCallback<string> OnSearch { get; set; }
+
+	private string searchQuery;
+
+	private async Task SearchItem()
+	{
+		await OnSearch.InvokeAsync(searchQuery);
+	}
+}
+
+<div class="row mb-4">
+	<div class="col-md-8">
+		<input type="text" @bind="searchQuery" placeholder="Buscar películas o series..." class="form-control" />
+	</div>
+	<div class="col-md-4">
+		<button @onclick="SearchItem" class="btn btn-primary w-100">Buscar</button>
+	</div>
+</div>

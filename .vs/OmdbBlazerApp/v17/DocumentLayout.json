@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|c:\\users\\cedbo\\source\\repos\\omdbblazerapp\\blazorproject\\components\\searchdocumentation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|solutionrelative:blazorproject\\components\\searchdocumentation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|c:\\users\\cedbo\\source\\repos\\omdbblazerapp\\blazorproject\\components\\resultsdocumentation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|solutionrelative:blazorproject\\components\\resultsdocumentation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|c:\\users\\cedbo\\source\\repos\\omdbblazerapp\\blazorproject\\pages\\internalcomponentspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|solutionrelative:blazorproject\\pages\\internalcomponentspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|c:\\users\\cedbo\\source\\repos\\omdbblazerapp\\blazorproject\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9929D3DD-11FA-454F-8853-5DAE5461E3C4}|OmdbBlazerApp.csproj|solutionrelative:blazorproject\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultsDocumentation.razor",
+              "DocumentMoniker": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Components\\ResultsDocumentation.razor",
+              "RelativeDocumentMoniker": "BlazorProject\\Components\\ResultsDocumentation.razor",
+              "ToolTip": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Components\\ResultsDocumentation.razor",
+              "RelativeToolTip": "BlazorProject\\Components\\ResultsDocumentation.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:38:52.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorProject\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "BlazorProject\\Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:37:49.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InternalComponentsPage.razor",
+              "DocumentMoniker": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Pages\\InternalComponentsPage.razor",
+              "RelativeDocumentMoniker": "BlazorProject\\Pages\\InternalComponentsPage.razor",
+              "ToolTip": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Pages\\InternalComponentsPage.razor",
+              "RelativeToolTip": "BlazorProject\\Pages\\InternalComponentsPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:37:19.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchDocumentation.razor",
+              "DocumentMoniker": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Components\\SearchDocumentation.razor",
+              "RelativeDocumentMoniker": "BlazorProject\\Components\\SearchDocumentation.razor",
+              "ToolTip": "C:\\Users\\cedbo\\source\\repos\\OmdbBlazerApp\\BlazorProject\\Components\\SearchDocumentation.razor",
+              "RelativeToolTip": "BlazorProject\\Components\\SearchDocumentation.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T03:35:30.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

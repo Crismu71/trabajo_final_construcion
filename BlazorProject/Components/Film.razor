@@ -1,0 +1,26 @@
+﻿@using OmdbBlazerApp.BlazorProject.Models
+@using OmdbBlazerApp.BlazorProject.Services
+
+@code {
+	// ApiResultComponent.razor
+	[Parameter]
+	public required Movie movie { get; set; }
+
+}
+<tr>
+	<th scope="row">@movie.ImdbId</th>
+	<td>
+		@if (@movie.Poster != "N/A")
+		{
+			<img src="@movie.Poster" alt="@movie.Title" width="50" class="img-thumbnail" />
+		}
+		else
+		{
+			<span>Poster no disponible</span>
+		}
+	</td>
+	<td>@movie.Title</td>
+	<td>@movie.Year</td>
+	<td>@movie.Type</td>
+</tr>
+
